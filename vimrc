@@ -176,8 +176,6 @@ set smartcase
 " 当 buff 被丢弃时隐藏它
 set bufhidden=hide
 
-" 启动的时候不显示那个援助索马里儿童的提示
-set shortmess=atI
 
 " 通过使用: commands命令，告诉我们文件的哪一行被改变过
 set report=0
