@@ -1,9 +1,8 @@
 " vim: set et sw=4 ts=4 sts=4 fdm=marker ff=unix fenc=utf8
 "
-" roamlog 的 VIM 配置文件
+" hunter 的 VIM 配置文件
 "
-"   author: roamlog<roamlog@gmail.com>
-"  website: http://roamlog.info
+"   author: hunter<tangbao1113@gmail.com>
 "     date: 2010-10-13
 
 if v:version < 700
@@ -76,8 +75,8 @@ set whichwrap+=<,>,h,l "光标移动
 set textwidth=80 "自动换行
 
 " 标签页
-set tabpagemax=8
-set showtabline=2
+"set tabpagemax=8
+"set showtabline=2
 
 " 控制台响铃
 set noerrorbells
@@ -176,6 +175,8 @@ set smartcase
 " 当 buff 被丢弃时隐藏它
 set bufhidden=hide
 
+" 启动的时候不显示那个援助索马里儿童的提示
+set shortmess=atI
 
 " 通过使用: commands命令，告诉我们文件的哪一行被改变过
 set report=0
